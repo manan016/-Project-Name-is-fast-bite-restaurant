@@ -1,0 +1,120 @@
+
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+
+}
+ header {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ header.logo h1 {
+    margin: 0;
+
+ }
+
+ header nav ul   {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+ }
+
+ header nav ul li {
+    margin-left: 20px ;
+
+ }
+ header nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ .Hero {
+    background-image: url(pic8.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    
+ }
+ .Hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: rgb(255, 99, 71);
+ }
+ .Hero button {
+    background-color: rgb(255, 99, 71);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: rem 1.2rem;
+    cursor: pointer;
+    margin: 20px;
+
+ }
+ .Hero p {
+    font-size: 2.5rem;
+    margin: 0;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: rgb(255, 99, 71);
+ }
+ .Menu{
+    text-align: center;
+    padding: 50px 20px;
+ }
+ .menu h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+ }
+ .Menu .menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    text-align: center;
+ }
+ .Menu .menu-item img {
+    width: 100%;
+    border-radius: 10px;
+
+ }
+ .Menu .menu-item h3 {
+    margin: 15px 0 10px;
+
+ }
+ .Menu .menu-item p {
+    margin: 0 0 10px;
+ }
+ Menu.menu-item span {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: rgb(255, 99, 71);
+ }
+ .Menu .menu-item button{
+   background-color: rgb(255, 99, 71);
+   border: none;
+   padding: 10px 20px;
+   color: white;
+   font-size: rem 1.2rem;
+   cursor: pointer;
+   margin: 20px;
+
+ }
+ footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   margin-top: 15px;
+
+ }
